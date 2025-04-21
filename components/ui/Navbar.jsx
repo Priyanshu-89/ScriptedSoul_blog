@@ -25,10 +25,10 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-6">
-            <Link href="/" className="text-gray-700 hover:text-blue-500">Home</Link>
-            <Link href="/about" className="text-gray-700 hover:text-blue-500">About</Link>
-            <Link href="/contact" className="text-gray-700 hover:text-blue-500">Contact</Link>
-            <Link href="/blog" className="text-gray-700 hover:text-blue-500">Blog</Link>
+            <Link href="/" >Home</Link>
+            <Link href="/about" >About</Link>
+            <Link href="/contact" >Contact</Link>
+            <Link href="/blog" >Blog</Link>
             <div className='flex items-center border-gray-700'>
               <Button className="mx-1" variant="outline">Login</Button>
               <Button className="mx-1" variant="outline">Signup</Button>
@@ -53,7 +53,7 @@ const Navbar = () => {
       <div className="mt-4 space-y-4">
         <Link href="/" className="block hover:text-blue-400">Home</Link>
         <Link href="/about" className="block hover:text-blue-400">About</Link>
-        <Link href="/contact" className="block hover:text-blue-400">Contact</Link>
+        <Link href="#" className="block hover:text-blue-400">Contact</Link>
         <Link href="/blog" className="block hover:text-blue-400">Blog</Link>
 
         <div className="pt-4 border-t border-gray-700">

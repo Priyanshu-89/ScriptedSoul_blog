@@ -26,7 +26,7 @@ const Page = () => {
  
   return (
    <>
-    <div className="flex flex-col md:flex-row items-center justify-between  p-6   max-w-full  mt-10">
+    <div className="flex flex-col md:flex-row items-center justify-between  p-6   max-w-6xl mx-auto  mt-10">
       {/* Left Section */}
       <div className="flex-1 text-center md:text-left">
         <h1 className="text-xl font-bold ">Priyanshu Kumari</h1>
@@ -49,8 +49,8 @@ const Page = () => {
       {/* Right Section - Image */}
       <div className="mt-6 md:mt-0 md:ml-6">
       <Image
-  src="https://coolwallpapers.me/picsup/5047484-black-hair-blue-eyes-girl-long-hair-model-woman.jpg"
-  alt="Bethany holding flowers and ice cream"
+  src="/images/women.png"
+  alt="Loading..."
   width={400}
   height={550}
   className="w-96 h-[550px] rounded-lg object-cover"
